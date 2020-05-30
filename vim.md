@@ -1,6 +1,10 @@
 # VIM GUIDE
 
 
+## Sessions
+
+
+
 ## Buffers
 
 `:ls` - buffers list
@@ -14,12 +18,15 @@
 
 `Ctrl-w-v` - split by vertical
 
+`Ctrl-w-s` - split by horizontal
+
 `Ctrl-w-w` - switch pane
 
 `Ctrl-w-l` - switch to right pane
 
 
 ## Tabs
+
 `Ctrl-n` - toggle nerdtree
 
 `:tabs` - show all tabs
