@@ -1,11 +1,25 @@
 # VIM GUIDE
 
+### Sessions
 
-## Sessions
+### Search
 
+`:noh` - disble highlighting until next search  
+`/` - for search
 
+### Easymotion
 
-## Buffers
+`<leader><leader>-s` - for jump to char
+
+### Surraund
+
+`cs""` - example "Hello World" changed to 'Hello World'  
+`cs"<q>` - example "Hello World" changed to <q>Hello World</q>  
+`cst"` - example <q>Hello World</q> changed to "Hello World"  
+`ds<delimiter>` - remove delimiters
+`yss(` - line to braces
+
+### Buffers
 
 `:ls` - buffers list
 
@@ -13,8 +27,7 @@
 
 `:bs <bufer number | buffer name (can use autocompletion)>` - close buffer
 
-
-## Windows
+### Windows
 
 `Ctrl-w-v` - split by vertical
 
@@ -24,8 +37,7 @@
 
 `Ctrl-w-l` - switch to right pane
 
-
-## Tabs
+### Tabs
 
 `Ctrl-n` - toggle nerdtree
 
@@ -39,13 +51,13 @@
 
 `:tabp` - go to previous tab
 
-`gt`            go to next tab
+`gt` go to next tab
 
-`gT`            go to previous tab
+`gT` go to previous tab
 
-`{i}gt`         go to tab in position i
+`{i}gt` go to tab in position i
 
-## NerdTree
+### NerdTree
 
 `m` - to interact with menu nodes
 
@@ -53,17 +65,14 @@
 
 `:help NERDTreeMappings` - key maps
 
-## Coc typescript
+### Coc typescript
 
 ``
 
+### Nerd commenter
 
-## Nerd commenter
+### Key bindings
 
-
-## Key bindings
-
-
-## Code folding
+### Code folding
 
 `za` - open / close all code
