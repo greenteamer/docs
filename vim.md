@@ -25,7 +25,7 @@
 
 `:b <bufer number | buffer name (can use autocompletion)>` - checkout to buffer
 
-`:bs <bufer number | buffer name (can use autocompletion)>` - close buffer
+`:bd <bufer number | buffer name (can use autocompletion)>` - close buffer
 
 ### Windows
 
